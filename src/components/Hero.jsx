@@ -6,13 +6,7 @@ const Hero = () => {
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
         <img src={logo} alt='sumz_logo' className='w-28 object-contain'/>
 
-        <button
-          type='button'
-          onClick={() => window.open('https://github.com/SRodriguezBottero')}
-          className='black_btn'
-        >
-          GiHub
-        </button>
+
       </nav>
 
       <h1 className='head_text'>
